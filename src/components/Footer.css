@@ -1,0 +1,61 @@
+.bdp-logo #logo-img {
+	height: 50px;
+    width: 50px;
+	float: left;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.bdp-logo #logo-text {
+	float: left;
+	margin-left: 0.5em;
+	height: 3em;
+	padding: 0.75em 0 0.25em 0;
+	line-height: 1.5em;
+	color: #669FA1;
+}	
+
+#logo-text #logo-name {
+	font-family: 'Open Sans Condensed';
+	font-size: 1.65em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 0em;
+	color: #669FA1;
+}	
+
+#logo-text #logo-subtitle {
+	font-family: 'Open Sans Condensed';
+	font-size: 1em;
+	font-weight: bold;
+	color: #669FA1;
+	text-transform: uppercase;
+	text-decoration: none;
+}	
+
+#logo-text #logo-short {
+	font-family: 'Open Sans Condensed';
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #669FA1;
+}
+.bdp-logo #logo-img {
+	height: 100%;
+	float: left;
+}
+
+.bdp-logo {
+
+    margin-top: -15px;
+}
+
+.logobdp {
+
+	display: table;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

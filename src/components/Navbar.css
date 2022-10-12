@@ -1,0 +1,89 @@
+.bi {
+  font-size: 20px;
+}
+
+.stripe {
+  animation: stripesAnimationTop 1s ease-in;
+  text-align: right;
+  line-height: 35px;
+  animation-fill-mode: forwards;
+  width: 100%;
+  text-decoration: none;
+  transition: line-height 250ms ease-in;
+}
+
+.stripe:hover {
+  line-height: 70px;
+  cursor: pointer;
+}
+
+@keyframes stripesAnimationTop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateX(10%);
+  }
+}
+
+.logo {
+  width: 270px;
+  height: 270px;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.navLink {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+
+.navLink:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.logoOnScroll {
+  width: 140px;
+  height: 140px;
+  transition: width;
+}
+
+.stripeExpand {
+  text-align: right;
+  line-height: 35px;
+  width: 100%;
+}
+
+.stripeRetract a {
+  text-align: right;
+  line-height: 10px;
+  width: 100%;
+  transition: line-height 250ms ease-in;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 250px;
+    height: 250px;
+    transition: width;
+  }
+}
+
+.reax-link {
+  text-decoration: none;
+}

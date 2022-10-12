@@ -1,0 +1,17 @@
+.delta {
+  position: relative;
+  margin-top: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+
+.clueStyle {
+    font-size: larger;
+    color: rgb(4, 209, 4);
+}
+
+.clueTitle {
+
+    color: rgb(4, 209, 4);
+}

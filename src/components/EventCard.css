@@ -1,0 +1,45 @@
+.cards-container {
+  display: flex;
+  border-radius: 6px;
+  color: #333;
+  padding: 1rem;
+  overflow-x: auto;
+  position: relative;
+}
+
+.additionalCardProps {
+  flex: 1 0 250px;
+  box-shadow: 0 1px 1rem -4px rgba(0, 0, 0, 0.133);
+  margin: 1rem;
+  overflow: hidden;
+  border-radius: 6px;
+  transition: all 250ms ease-in-out;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.dated {
+  font-size: smaller;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+.cal {
+  position: relative;
+  margin-top: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.eventButton {
+
+   align-self: baseline;
+}
+
+.alignCenter  {
+
+    vertical-align: center;
+
+}

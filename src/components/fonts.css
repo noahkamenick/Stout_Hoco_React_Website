@@ -1,0 +1,49 @@
+.nunito {
+  font-family: nunito-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hoboFont {
+  font-family: hobeaux, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.heading {
+  font-size: 48px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.subHeading {
+  font-size: 28px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.verbiage {
+  font-size: 21px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nunito-el {
+  font-family: nunito-sans, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+	font-family: Open Sans Condensed;
+	src: url(../assets/open-sans/OpenSansCondensed-Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Open Sans Condensed;
+	src: url(../assets/open-sans/OpenSans-Regular.ttf);
+	font-weight: normal;
+}
